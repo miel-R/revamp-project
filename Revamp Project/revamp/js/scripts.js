@@ -47,11 +47,11 @@ document.addEventListener('DOMContentLoaded', function () {
         function handleScroll() {
             var scrollPosition = window.scrollY;
             if (scrollPosition > 50) {
-                profilePanel.classList.add('is-scrolled');
-                heroContent.classList.add('is-scrolled');
-            } else {
                 profilePanel.classList.remove('is-scrolled');
                 heroContent.classList.remove('is-scrolled');
+            } else {
+                profilePanel.classList.add('is-scrolled');
+                heroContent.classList.add('is-scrolled');
             }
         }
 
